@@ -3,17 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Jawad Ebrahimi | Computer Science Student & Aspiring AI Engineer</title>
-<meta name="description" content="Portfolio of Jawad Ebrahimi, a Computer Science student at Gharjistan University in Kabul, focused on Python, machine learning and software engineering.">
-<meta name="keywords" content="Jawad Ebrahimi, AI engineer, computer science student, Python, machine learning, Kabul">
+<title>Jawad Ebrahemi | Computer Science Student & Aspiring AI Engineer</title>
+<meta name="description" content="Portfolio of Jawad Ebrahemi, a Computer Science student at Gharjistan University in Kabul, focused on Python, machine learning and software engineering.">
+<meta name="keywords" content="Jawad Ebrahemi, AI engineer, computer science student, Python, machine learning, Kabul">
 <meta name="theme-color" content="#0b1020">
-
-<!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Jawad Ebrahimi | Aspiring AI Engineer">
+<meta property="og:title" content="Jawad Ebrahemi | Aspiring AI Engineer">
 <meta property="og:description" content="Computer Science student building toward AI and software engineering.">
 <meta property="og:image" content="preview.jpg">
-
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +55,6 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 .wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:clamp(1.1rem,4vw,2rem)}
 .lead{color:var(--mu);max-width:62ch}
 
-/* ===== Background: particles + glows ===== */
 .bg-fx{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
 .bg-fx::before,.bg-fx::after{
   content:"";position:absolute;border-radius:50%;filter:blur(90px);opacity:.5;
@@ -70,12 +66,10 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 #particles{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.55}
 :root[data-theme="light"] #particles{opacity:.35}
 
-/* ===== Views ===== */
 .view{display:none}
 .view.active{display:block;animation:fadeUp .5s cubic-bezier(.22,1,.36,1)}
 @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 
-/* ===== Topbar ===== */
 .topbar{
   position:sticky;top:0;z-index:60;background:var(--nav);
   backdrop-filter:blur(14px) saturate(150%);
@@ -92,7 +86,6 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 }
 .theme-btn:hover{background:rgba(122,167,255,.12);transform:rotate(-15deg)}
 
-/* ===== Back button ===== */
 .back-btn{
   position:fixed;top:calc(1rem + env(safe-area-inset-top,0px));left:1rem;z-index:90;
   display:inline-flex;align-items:center;gap:.5rem;
@@ -103,7 +96,6 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 }
 .back-btn:hover{transform:translateX(-4px);border-color:var(--ac)}
 
-/* ===== HOME ===== */
 .home{
   min-height:calc(100vh - 68px);
   display:flex;align-items:center;justify-content:center;
@@ -155,7 +147,6 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
   margin-bottom:.75rem;
 }
 
-/* ===== Typing animation ===== */
 .typing-line{
   font-size:clamp(1rem,.9rem + .7vw,1.35rem);
   font-weight:700;color:var(--ac);margin-bottom:1rem;
@@ -174,18 +165,17 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 
 .hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.4rem}
 
-/* ===== Icon nav ===== */
 .nav-icons{
   display:grid;gap:1.1rem;
-  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-  width:100%;max-width:780px;margin-top:.5rem;
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  width:100%;max-width:880px;margin-top:.5rem;
 }
 .nav-icon{
   position:relative;overflow:hidden;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.55rem;
   background:var(--card);border:1px solid var(--bd);border-radius:20px;
-  padding:1.5rem 1rem;cursor:pointer;text-decoration:none;color:var(--tx);
-  font-weight:700;font-size:.92rem;
+  padding:1.4rem 1rem;cursor:pointer;text-decoration:none;color:var(--tx);
+  font-weight:700;font-size:.88rem;
   backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
   box-shadow:var(--sh);
   transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .3s,box-shadow .3s;
@@ -200,11 +190,10 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
   box-shadow:0 24px 50px rgba(122,167,255,.28);
 }
 .nav-icon:hover::before{opacity:1}
-.nav-icon .emoji{font-size:2rem;line-height:1;transition:transform .35s}
+.nav-icon .emoji{font-size:1.9rem;line-height:1;transition:transform .35s}
 .nav-icon:hover .emoji{transform:scale(1.15) rotate(-6deg)}
 .nav-icon .label{position:relative;letter-spacing:-.01em}
 
-/* ===== Section pages ===== */
 .section{padding-block:clamp(4.5rem,11vw,8rem)}
 .section .wrap{max-width:1020px}
 .section-title{display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem}
@@ -213,7 +202,6 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
   background:linear-gradient(90deg,var(--ac),var(--ac2));
 }
 
-/* Cards */
 .card{
   background:var(--card);border:1px solid var(--bd);border-radius:18px;
   padding:1.6rem;box-shadow:var(--sh);
@@ -224,13 +212,152 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 .grid-2{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .grid-cards{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .grid-projects{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-.tags{display:flex;flex-wrap:wrap;gap:.5rem}
-.tag{
+
+.skill-bar{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem}
+.skill-bar .skill-head{display:flex;justify-content:space-between;font-size:.9rem;font-weight:600}
+.skill-bar .skill-head span:last-child{color:var(--ac);font-weight:700}
+.skill-track{width:100%;height:8px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+:root[data-theme="light"] .skill-track{background:rgba(20,30,70,.08)}
+.skill-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--ac),var(--ac2));transition:width 1s ease}
+
+.service-card{
+  display:flex;flex-direction:column;gap:.6rem;
+  background:var(--card);border:1px solid var(--bd);border-radius:18px;
+  padding:1.6rem;box-shadow:var(--sh);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  transition:transform .35s,border-color .3s;
+}
+.service-card:hover{transform:translateY(-6px);border-color:var(--ac)}
+.service-card .icon{
+  font-size:2rem;width:56px;height:56px;border-radius:14px;
+  display:grid;place-items:center;
+  background:linear-gradient(135deg,rgba(122,167,255,.18),rgba(182,156,255,.18));
+}
+.service-card h3{margin:0}
+.service-card p{color:var(--mu);font-size:.94rem;margin:0}
+
+.cert-card{
+  display:flex;gap:1rem;align-items:flex-start;
+  background:var(--card);border:1px solid var(--bd);border-radius:16px;
+  padding:1.2rem 1.4rem;box-shadow:var(--sh);
+  transition:transform .3s,border-color .3s;
+}
+.cert-card:hover{transform:translateY(-4px);border-color:var(--ac)}
+.cert-card .cert-ico{
+  font-size:1.6rem;width:44px;height:44px;border-radius:12px;
+  display:grid;place-items:center;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(122,167,255,.2),rgba(182,156,255,.2));
+}
+.cert-card h3{margin:0 0 .25rem;font-size:1rem}
+.cert-card p{color:var(--mu);font-size:.85rem;margin:0}
+.cert-card .cert-link{
+  display:inline-block;margin-top:.5rem;
+  font-size:.82rem;font-weight:700;color:var(--ac);text-decoration:none;
+}
+
+.edu-card{
+  display:flex;gap:1.2rem;align-items:flex-start;
+  background:var(--card);border:1px solid var(--bd);border-radius:16px;
+  padding:1.4rem;box-shadow:var(--sh);
+  transition:transform .3s,border-color .3s;
+}
+.edu-card:hover{transform:translateY(-4px);border-color:var(--ac)}
+.edu-card .edu-ico{
+  font-size:1.6rem;width:48px;height:48px;border-radius:12px;
+  display:grid;place-items:center;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(122,167,255,.2),rgba(182,156,255,.2));
+}
+.edu-card .edu-date{
+  display:inline-block;font-size:.75rem;font-weight:700;color:var(--ac);
+  background:rgba(122,167,255,.12);padding:.2rem .7rem;border-radius:999px;
+  margin-bottom:.4rem;letter-spacing:.02em;
+}
+.edu-card h3{margin:0 0 .2rem;font-size:1rem}
+.edu-card p{color:var(--mu);font-size:.9rem;margin:.2rem 0 0}
+
+.lang-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 1.2rem;border-bottom:1px solid var(--bd);
+  font-weight:600;
+}
+.lang-row:last-child{border-bottom:none}
+.lang-row .lang-level{
+  font-size:.82rem;font-weight:700;color:var(--ac);
+  background:rgba(122,167,255,.14);
+  padding:.25rem .8rem;border-radius:999px;
+}
+
+.project-card{
+  display:flex;flex-direction:column;
+  background:var(--card);border:1px solid var(--bd);border-radius:18px;
+  padding:1.6rem;box-shadow:var(--sh);text-decoration:none;color:var(--tx);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .3s,box-shadow .3s;
+  position:relative;overflow:hidden;
+}
+.project-card::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(circle at 50% 0%,rgba(122,167,255,.18),transparent 70%);
+  opacity:0;transition:opacity .35s;
+}
+.project-card:hover{
+  transform:translateY(-8px);border-color:var(--ac);
+  box-shadow:0 24px 50px rgba(122,167,255,.28);
+}
+.project-card:hover::before{opacity:1}
+.project-card h3{margin-bottom:.5rem;position:relative}
+.project-card p{color:var(--mu);flex:1;font-size:.95rem;position:relative;margin-bottom:1rem}
+.project-tags{display:flex;flex-wrap:wrap;gap:.5rem;position:relative}
+.project-tags span{
   background:rgba(122,167,255,.14);color:var(--ac);
-  padding:.32rem .9rem;border-radius:999px;font-size:.85rem;font-weight:600;
+  padding:.3rem .85rem;border-radius:999px;
+  font-size:.82rem;font-weight:600;
   border:1px solid rgba(122,167,255,.18);
 }
-.tag.purple{background:rgba(182,156,255,.14);color:var(--ac2);border-color:rgba(182,156,255,.18)}
+.project-link{
+  display:inline-flex;align-items:center;gap:.35rem;
+  margin-top:1rem;font-size:.85rem;font-weight:700;color:var(--ac);
+  transition:transform .3s;position:relative;
+}
+.project-card:hover .project-link{transform:translateX(4px)}
+
+.contact-grid{
+  display:grid;gap:1.5rem;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  text-align:left;margin-top:2rem;
+}
+.contact-form{display:flex;flex-direction:column;gap:1rem}
+.contact-form label{
+  display:flex;flex-direction:column;gap:.35rem;
+  font-size:.88rem;font-weight:600;color:var(--mu);
+}
+.contact-form input,
+.contact-form textarea{
+  font-family:inherit;font-size:1rem;
+  background:var(--card);color:var(--tx);
+  border:1px solid var(--bd);border-radius:12px;
+  padding:.75rem 1rem;outline:none;
+  transition:border-color .25s,box-shadow .25s;width:100%;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-color:var(--ac);box-shadow:0 0 0 4px rgba(122,167,255,.15);
+}
+.contact-form textarea{min-height:130px;resize:vertical}
+.contact-form .btn-primary{justify-content:center;margin-top:.3rem}
+.contact-info{display:flex;flex-direction:column;gap:1rem}
+.contact-info a{
+  display:flex;align-items:center;gap:.75rem;text-decoration:none;
+  background:var(--card);border:1px solid var(--bd);border-radius:14px;
+  padding:1rem 1.2rem;font-weight:600;
+  transition:transform .3s,border-color .3s;
+}
+.contact-info a:hover{transform:translateX(6px);border-color:var(--ac)}
+.contact-info .ico{font-size:1.35rem}
+.form-note{font-size:.82rem;color:var(--mu);margin-top:.5rem}
+#form-status{margin-top:1rem;font-weight:600;font-size:.9rem;padding:.6rem 1rem;border-radius:10px;display:none}
+#form-status.ok{display:block;background:rgba(94,234,212,.12);color:#5eead4;border:1px solid rgba(94,234,212,.3)}
+#form-status.err{display:block;background:rgba(255,107,107,.12);color:#ff8a8a;border:1px solid rgba(255,107,107,.3)}
 
 .btn-primary{
   display:inline-flex;align-items:center;gap:.5rem;
@@ -250,12 +377,10 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 }
 .btn-outline:hover{border-color:var(--ac);transform:translateY(-3px)}
 
-/* ===== TIMELINE ===== */
 .timeline{position:relative;margin-top:2rem;padding-left:2rem}
 .timeline::before{
   content:"";position:absolute;left:8px;top:8px;bottom:8px;width:2px;
-  background:linear-gradient(180deg,var(--ac),var(--ac2),transparent);
-  border-radius:2px;
+  background:linear-gradient(180deg,var(--ac),var(--ac2),transparent);border-radius:2px;
 }
 .tl-item{position:relative;padding-bottom:2rem}
 .tl-item:last-child{padding-bottom:0}
@@ -272,57 +397,7 @@ p{margin:0 0 1rem;overflow-wrap:anywhere}
 .tl-item h3{margin-bottom:.3rem}
 .tl-item p{color:var(--mu);margin:0;font-size:.95rem}
 
-/* ===== CONTACT FORM ===== */
-.contact-grid{
-  display:grid;gap:1.5rem;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  text-align:left;margin-top:2rem;
-}
-.contact-form{
-  display:flex;flex-direction:column;gap:1rem;
-}
-.contact-form label{
-  display:flex;flex-direction:column;gap:.35rem;
-  font-size:.88rem;font-weight:600;color:var(--mu);
-}
-.contact-form input,
-.contact-form textarea{
-  font-family:inherit;font-size:1rem;
-  background:var(--card);color:var(--tx);
-  border:1px solid var(--bd);border-radius:12px;
-  padding:.75rem 1rem;outline:none;
-  transition:border-color .25s,box-shadow .25s;
-  width:100%;
-}
-.contact-form input:focus,
-.contact-form textarea:focus{
-  border-color:var(--ac);box-shadow:0 0 0 4px rgba(122,167,255,.15);
-}
-.contact-form textarea{min-height:130px;resize:vertical}
-.contact-form .btn-primary{justify-content:center;margin-top:.3rem}
-.contact-info{display:flex;flex-direction:column;gap:1rem}
-.contact-info a{
-  display:flex;align-items:center;gap:.75rem;text-decoration:none;
-  background:var(--card);border:1px solid var(--bd);border-radius:14px;
-  padding:1rem 1.2rem;font-weight:600;
-  transition:transform .3s,border-color .3s;
-}
-.contact-info a:hover{transform:translateX(6px);border-color:var(--ac)}
-.contact-info .ico{font-size:1.35rem}
-.form-note{
-  font-size:.82rem;color:var(--mu);margin-top:.5rem;
-}
-#form-status{
-  margin-top:1rem;font-weight:600;font-size:.9rem;
-  padding:.6rem 1rem;border-radius:10px;display:none;
-}
-#form-status.ok{display:block;background:rgba(94,234,212,.12);color:#5eead4;border:1px solid rgba(94,234,212,.3)}
-#form-status.err{display:block;background:rgba(255,107,107,.12);color:#ff8a8a;border:1px solid rgba(255,107,107,.3)}
-
-footer{
-  border-top:1px solid var(--bd);padding:2rem 0;text-align:center;
-  color:var(--mu);font-size:.88rem;
-}
+footer{border-top:1px solid var(--bd);padding:2rem 0;text-align:center;color:var(--mu);font-size:.88rem}
 
 @media (max-width:480px){
   .nav-icons{grid-template-columns:repeat(2,1fr);gap:.85rem}
@@ -342,13 +417,11 @@ footer{
 
 <main id="main">
 
-  <!-- ============================================================ -->
-  <!-- HOME                                                         -->
-  <!-- ============================================================ -->
+  <!-- HOME -->
   <div id="view-home" class="view active">
     <div class="topbar">
       <div class="wrap">
-        <a href="#" class="brand" data-go="home"><span class="dot"></span> Jawad Ebrahimi</a>
+        <a href="#" class="brand" data-go="home"><span class="dot"></span> Jawad Ebrahemi</a>
         <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
       </div>
     </div>
@@ -357,64 +430,49 @@ footer{
       <div class="wrap">
         <div class="hero">
 
-          <!-- عکس پروفایل -->
           <div class="avatar-wrap">
             <div class="avatar">
-              <!-- 👇👇👇 عکس خودت را اینجا بگذار 👇👇👇 -->
-              <img id="avatar"
-                   src="me.png"
-                   alt="Jawad Ebrahemi">
+              <img id="avatar" src="me.png" alt="Jawad Ebrahemi">
             </div>
           </div>
 
-          <span class="badge"><span class="pulse"></span> Available for collaboration</span>
+          <span class="badge"><span class="pulse"></span> Open to opportunities</span>
 
-          <!-- انیمیشن تایپ -->
           <div class="typing-line" aria-live="polite">
-            <span class="prefix">I'm a</span>
+            <span class="prefix">I'm an</span>
             <span id="typed-text"></span><span class="cursor" aria-hidden="true"></span>
           </div>
 
-          <h1>Jawad Ebrahimi</h1>
+          <h1>Jawad Ebrahemi</h1>
           <p class="lead">
             Building toward a career in <strong>Artificial Intelligence</strong> and
             <strong>Software Engineering</strong> — from Gharjistan University, Kabul.
           </p>
 
           <div class="hero-actions">
-            <a href="Jawad-Ebrahimi-CV.pdf" class="btn-primary" download>📄 Download CV</a>
-            <a href="https://github.com/" target="_blank" rel="noopener" class="btn-outline">🐙 GitHub</a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="btn-outline">💼 LinkedIn</a>
+            <a href="Jawad-Ebrahemi-CV.pdf" class="btn-primary" download>📄 Download CV</a>
+            <a href="https://github.com/jawadebrahimi1400-pixel" target="_blank" rel="noopener" class="btn-outline">🐙 GitHub</a>
+            <a href="https://www.linkedin.com/in/jawad-ebrahimi-2b8a13421" target="_blank" rel="noopener" class="btn-outline">💼 LinkedIn</a>
           </div>
 
-          <!-- آیکن‌های ناوبری -->
           <nav class="nav-icons" aria-label="Sections">
-            <a class="nav-icon" href="#about" data-go="about">
-              <span class="emoji">👤</span><span class="label">About Me</span>
-            </a>
-            <a class="nav-icon" href="#skills" data-go="skills">
-              <span class="emoji">🧠</span><span class="label">Skills</span>
-            </a>
-            <a class="nav-icon" href="#timeline" data-go="timeline">
-              <span class="emoji">🚀</span><span class="label">Journey</span>
-            </a>
-            <a class="nav-icon" href="#projects" data-go="projects">
-              <span class="emoji">💻</span><span class="label">Projects</span>
-            </a>
-            <a class="nav-icon" href="#contact" data-go="contact">
-              <span class="emoji">✉️</span><span class="label">Contact</span>
-            </a>
+            <a class="nav-icon" href="#about" data-go="about"><span class="emoji">👤</span><span class="label">About</span></a>
+            <a class="nav-icon" href="#skills" data-go="skills"><span class="emoji">🧠</span><span class="label">Skills</span></a>
+            <a class="nav-icon" href="#education" data-go="education"><span class="emoji">🎓</span><span class="label">Education</span></a>
+            <a class="nav-icon" href="#timeline" data-go="timeline"><span class="emoji">🚀</span><span class="label">Journey</span></a>
+            <a class="nav-icon" href="#projects" data-go="projects"><span class="emoji">💻</span><span class="label">Projects</span></a>
+            <a class="nav-icon" href="#certificates" data-go="certificates"><span class="emoji">🏆</span><span class="label">Certificates</span></a>
+            <a class="nav-icon" href="#services" data-go="services"><span class="emoji">💼</span><span class="label">Services</span></a>
+            <a class="nav-icon" href="#contact" data-go="contact"><span class="emoji">✉️</span><span class="label">Contact</span></a>
           </nav>
         </div>
       </div>
     </section>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- ABOUT                                                        -->
-  <!-- ============================================================ -->
+  <!-- ABOUT -->
   <div id="view-about" class="view">
-    <button class="back-btn" data-go="home" aria-label="Back to home">← Back</button>
+    <button class="back-btn" data-go="home">← Back</button>
     <section class="section">
       <div class="wrap">
         <div class="section-title"><span class="line"></span><h2 style="margin:0">About Me</h2></div>
@@ -437,16 +495,21 @@ footer{
           </div>
           <div style="display:flex;flex-direction:column;gap:1rem">
             <div class="card">
-              <h3>🎓 Education</h3>
-              <p style="color:var(--mu);margin:0">B.Sc. Computer Science<br>Gharjistan University, Kabul</p>
+              <h3>📍 Location</h3>
+              <p style="color:var(--mu);margin:0">Kabul, Afghanistan</p>
             </div>
             <div class="card">
               <h3>🎯 Focus Areas</h3>
               <p style="color:var(--mu);margin:0">AI · Machine Learning · Python · Software Engineering</p>
             </div>
             <div class="card">
-              <h3>📍 Location</h3>
-              <p style="color:var(--mu);margin:0">Kabul, Afghanistan</p>
+              <h3>💬 Languages</h3>
+              <div class="lang-row" style="padding:.6rem 0;border:none">
+                <span>Persian (Dari)</span><span class="lang-level">Native</span>
+              </div>
+              <div class="lang-row" style="padding:.6rem 0;border:none">
+                <span>English</span><span class="lang-level">Professional</span>
+              </div>
             </div>
           </div>
         </div>
@@ -454,50 +517,92 @@ footer{
     </section>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- SKILLS                                                       -->
-  <!-- ============================================================ -->
+  <!-- SKILLS -->
   <div id="view-skills" class="view">
-    <button class="back-btn" data-go="home" aria-label="Back to home">← Back</button>
+    <button class="back-btn" data-go="home">← Back</button>
     <section class="section">
       <div class="wrap">
         <div class="section-title"><span class="line"></span><h2 style="margin:0">Skills & Technologies</h2></div>
         <p class="lead" style="margin-bottom:2rem">Tools and technologies I'm currently working with and learning.</p>
-        <div class="grid-cards">
+
+        <div class="grid-2">
           <div class="card">
-            <h3 style="margin-bottom:1rem">🐍 Programming</h3>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">JavaScript</span>
-              <span class="tag">C++</span>
-              <span class="tag">SQL</span>
+            <h3 style="margin-bottom:1.2rem">🐍 Programming</h3>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Python</span><span>70%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:70%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>HTML / CSS</span><span>65%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:65%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Java</span><span>45%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:45%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>C++</span><span>40%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:40%"></div></div>
             </div>
           </div>
+
           <div class="card">
-            <h3 style="margin-bottom:1rem">🤖 AI & Data</h3>
-            <div class="tags">
-              <span class="tag purple">NumPy</span>
-              <span class="tag purple">Pandas</span>
-              <span class="tag purple">Scikit-learn</span>
-              <span class="tag purple">TensorFlow</span>
+            <h3 style="margin-bottom:1.2rem">🤖 AI & Data</h3>
+            <div class="skill-bar">
+              <div class="skill-head"><span>NumPy</span><span>55%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Pandas</span><span>55%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Scikit-learn</span><span>35%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:35%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>TensorFlow</span><span>20%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:20%"></div></div>
             </div>
           </div>
+
           <div class="card">
-            <h3 style="margin-bottom:1rem">🌐 Web & Tools</h3>
-            <div class="tags">
-              <span class="tag">HTML/CSS</span>
-              <span class="tag">Git</span>
-              <span class="tag">Linux</span>
-              <span class="tag">Jupyter</span>
+            <h3 style="margin-bottom:1.2rem">🌐 Tools</h3>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Git & GitHub</span><span>60%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:60%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Linux</span><span>45%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:45%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Jupyter</span><span>55%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Networking (CCNA)</span><span>45%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:45%"></div></div>
             </div>
           </div>
+
           <div class="card">
-            <h3 style="margin-bottom:1rem">🧠 Concepts</h3>
-            <div class="tags">
-              <span class="tag purple">Data Structures</span>
-              <span class="tag purple">Algorithms</span>
-              <span class="tag purple">OOP</span>
-              <span class="tag purple">Databases</span>
+            <h3 style="margin-bottom:1.2rem">🧠 Concepts</h3>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Data Structures</span><span>55%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Algorithms</span><span>50%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:50%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>OOP</span><span>55%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:55%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-head"><span>Databases</span><span>40%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:40%"></div></div>
             </div>
           </div>
         </div>
@@ -505,11 +610,52 @@ footer{
     </section>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- TIMELINE (Journey)                                           -->
-  <!-- ============================================================ -->
+  <!-- EDUCATION -->
+  <div id="view-education" class="view">
+    <button class="back-btn" data-go="home">← Back</button>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-title"><span class="line"></span><h2 style="margin:0">Education</h2></div>
+        <p class="lead" style="margin-bottom:2rem">My academic background and formal training.</p>
+
+        <div style="display:flex;flex-direction:column;gap:1.2rem">
+          <div class="edu-card">
+            <div class="edu-ico">🎓</div>
+            <div>
+              <span class="edu-date">2024 – 2027 (Expected)</span>
+              <h3>B.Sc. in Computer Science</h3>
+              <p><strong>Gharjistan University</strong> · Kabul, Afghanistan</p>
+              <p style="margin-top:.5rem">Studying programming fundamentals, data structures, algorithms, databases, and software engineering. Building a strong foundation for a career in artificial intelligence.</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-ico">📜</div>
+            <div>
+              <span class="edu-date">2024 – 2025</span>
+              <h3>Diploma in English Language</h3>
+              <p><strong>LADO International Institute (USA) &amp; MUSLIM English Language Institute</strong></p>
+              <p style="margin-top:.5rem">One-year intensive English program. Average: 76% · Grade: B+ · Completed January 2025.</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-ico">🏫</div>
+            <div>
+              <span class="edu-date">Graduated 2021</span>
+              <h3>High School Diploma — 12th Grade</h3>
+              <p><strong>Rahmanward Now Private High School</strong> · Ghor, Afghanistan</p>
+              <p style="margin-top:.5rem">Graduated with 90.84% average. Certificate issued by the Ministry of Education of Afghanistan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- JOURNEY -->
   <div id="view-timeline" class="view">
-    <button class="back-btn" data-go="home" aria-label="Back to home">← Back</button>
+    <button class="back-btn" data-go="home">← Back</button>
     <section class="section">
       <div class="wrap">
         <div class="section-title"><span class="line"></span><h2 style="margin:0">My Journey</h2></div>
@@ -522,9 +668,9 @@ footer{
             <p>Enrolled at Gharjistan University, Kabul. First encounter with programming fundamentals and algorithms.</p>
           </div>
           <div class="tl-item">
-            <span class="tl-date">2025 · Learning</span>
-            <h3>🐍 Learning Python</h3>
-            <p>Currently building a strong foundation in Python — practicing programming fundamentals, problem-solving, and writing small projects.</p>
+            <span class="tl-date">2024 · Learning</span>
+            <h3>🐍 Started Learning Python</h3>
+            <p>Began building a strong foundation in Python — practicing programming fundamentals, problem-solving, and writing small projects.</p>
           </div>
           <div class="tl-item">
             <span class="tl-date">2025 · Learning</span>
@@ -551,60 +697,200 @@ footer{
     </section>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- PROJECTS                                                     -->
-  <!-- ============================================================ -->
+  <!-- PROJECTS -->
   <div id="view-projects" class="view">
-    <button class="back-btn" data-go="home" aria-label="Back to home">← Back</button>
+    <button class="back-btn" data-go="home">← Back</button>
     <section class="section">
       <div class="wrap">
         <div class="section-title"><span class="line"></span><h2 style="margin:0">Projects</h2></div>
         <p class="lead" style="margin-bottom:2rem">A selection of projects I've built while learning and exploring.</p>
         <div class="grid-projects">
-          <article class="card" style="display:flex;flex-direction:column">
-            <h3>📊 Student Performance Predictor</h3>
-            <p style="color:var(--mu);flex:1">A machine learning model that predicts student academic outcomes based on study habits, attendance, and demographic data.</p>
-            <div class="tags" style="margin-top:1rem">
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">Python</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">Scikit-learn</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">Pandas</span>
-            </div>
-          </article>
-          <article class="card" style="display:flex;flex-direction:column">
+
+          <div class="project-card">
             <h3>🌐 Personal Portfolio Website</h3>
-            <p style="color:var(--mu);flex:1">A responsive, accessible portfolio site built from scratch with semantic HTML, modern CSS, and vanilla JavaScript.</p>
-            <div class="tags" style="margin-top:1rem">
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">HTML</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">CSS</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">JavaScript</span>
-            </div>
-          </article>
-          <article class="card" style="display:flex;flex-direction:column">
-            <h3>📝 Task Management CLI</h3>
-            <p style="color:var(--mu);flex:1">A command-line task manager with priority levels, due dates, and persistent JSON storage, designed with clean architecture and unit tests.</p>
-            <div class="tags" style="margin-top:1rem">
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">Python</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">JSON</span>
-              <span style="font-size:.82rem;color:var(--ac);font-weight:600">pytest</span>
-            </div>
-          </article>
+            <p>A modern, responsive portfolio site built from scratch — featuring a dark/light theme, animated avatar with rotating gradient ring, particle background, and smooth single-page navigation. Fully accessible and mobile-friendly.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://jawadebrahimi1400-pixel.github.io/my-portfolio/" target="_blank" rel="noopener">View Live →</a>
+          </div>
+
+          <div class="project-card">
+            <h3>🎓 Kankor Preparation Platform</h3>
+            <p>A web platform designed to help Afghan students prepare for the Kankor university entrance exam. Provides practice questions, structured study materials, and preparation resources for high school graduates.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Full Developer</span></div>
+          </div>
+
+          <div class="project-card">
+            <h3>🤖 Vocabulary AI</h3>
+            <p>An AI-powered vocabulary learning tool that helps users expand their English vocabulary. Provides definitions, example sentences, and contextual usage powered by modern language models.</p>
+            <div class="project-tags"><span>Python</span><span>AI</span></div>
+          </div>
+
+          <div class="project-card">
+            <h3>📐 Unit Converter</h3>
+            <p>A clean web tool that converts units across multiple categories — length, weight, temperature, and more. Built with a focus on accuracy, simplicity, and a responsive interface that works on any device.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+
         </div>
       </div>
     </section>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- CONTACT                                                      -->
-  <!-- ============================================================ -->
+  <!-- CERTIFICATES -->
+  <div id="view-certificates" class="view">
+    <button class="back-btn" data-go="home">← Back</button>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-title"><span class="line"></span><h2 style="margin:0">Certificates</h2></div>
+        <p class="lead" style="margin-bottom:2rem">Verified certifications and completed courses from Coursera and other institutions.</p>
+
+        <div style="display:flex;flex-direction:column;gap:1rem">
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>Preparing for Graduate Study in the U.S.</h3>
+              <p>Coursera · University of Michigan · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/W2TXDW2QNHVP" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>English Upper Intermediate B2.1</h3>
+              <p>Coursera · Università di Napoli Federico II · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/HBFTT3DEANL" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>Java Programming for Beginners</h3>
+              <p>Coursera · IBM · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/5057W1I09BDX" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>TOEFL Reading and Listening Sections Skills Mastery</h3>
+              <p>Coursera · University of California, Irvine · 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/KFX16GDZHBQH" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>HTML: How to Build a Website</h3>
+              <p>Coursera · University of London · 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/SSPHF51PUU7Q" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>Introduction to Computer Programming</h3>
+              <p>Coursera · University of London &amp; Goldsmiths · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/UP3L1SM5EAUH" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>CCNA: Networking Basics, Switching, Addressing, and Routing</h3>
+              <p>Coursera · Logical Operations · 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/TETVRAOGGVOP" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>TOEFL Test-Taking Strategies</h3>
+              <p>Coursera · University of California, Irvine · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/Y85I35TCWC4G" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🏅</div>
+            <div>
+              <h3>Introduction to Databases</h3>
+              <p>Coursera · Meta · October 2026</p>
+              <a class="cert-link" href="https://coursera.org/verify/Y80MWEMFT7TN" target="_blank" rel="noopener">Verify Credential →</a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🎓</div>
+            <div>
+              <h3>Diploma in English Language</h3>
+              <p>LADO International Institute (USA) &amp; MUSLIM English Language Institute · January 2025</p>
+              <p style="margin-top:.35rem;font-size:.82rem;color:var(--mu)">One-year course · Average: 76% · Grade: B+</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-ico">🎤</div>
+            <div>
+              <h3>Special Speaking Course — English</h3>
+              <p>Hadaf English Language Academy · May 2025</p>
+              <p style="margin-top:.35rem;font-size:.82rem;color:var(--mu)">Two-month intensive speaking program · March – May 2025</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- SERVICES -->
+  <div id="view-services" class="view">
+    <button class="back-btn" data-go="home">← Back</button>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-title"><span class="line"></span><h2 style="margin:0">Services</h2></div>
+        <p class="lead" style="margin-bottom:2rem">Ways I can help — available for freelance and collaboration.</p>
+
+        <div class="grid-cards">
+          <div class="service-card">
+            <div class="icon">🌐</div>
+            <h3>Website Development</h3>
+            <p>Responsive, accessible websites built with modern HTML, CSS, and JavaScript. Perfect for personal portfolios, small businesses, and student projects.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="icon">🐍</div>
+            <h3>Python Scripting</h3>
+            <p>Custom Python scripts for automation, data processing, and small tools. Clean, well-documented code with clear explanations.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="icon">🤖</div>
+            <h3>Machine Learning Projects</h3>
+            <p>Beginner-level ML models for prediction, classification, and data analysis using Python, Pandas, and Scikit-learn.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CONTACT -->
   <div id="view-contact" class="view">
-    <button class="back-btn" data-go="home" aria-label="Back to home">← Back</button>
+    <button class="back-btn" data-go="home">← Back</button>
     <section class="section">
       <div class="wrap">
         <div class="section-title"><span class="line"></span><h2 style="margin:0">Get in Touch</h2></div>
         <p class="lead">I'm always open to connecting with fellow learners, mentors, and anyone passionate about technology.</p>
 
         <div class="contact-grid">
-          <!-- فرم تماس -->
           <form class="contact-form card" id="contact-form" novalidate>
             <label>
               Your Name
@@ -619,34 +905,47 @@ footer{
               <textarea name="message" required placeholder="Hi Jawad, I'd like to talk about..."></textarea>
             </label>
             <button type="submit" class="btn-primary">✉️ Send Message</button>
-            <p class="form-note">Or email me directly at <a href="mailto:jawad.ebrahimi@example.com" style="color:var(--ac)">jawad.ebrahimi@example.com</a></p>
+            <p class="form-note">Or email me directly at <a href="mailto:jawad.ebrahimi1400@gmail.com" style="color:var(--ac)">jawad.ebrahimi1400@gmail.com</a></p>
             <div id="form-status" role="status"></div>
           </form>
 
-          <!-- راه‌های ارتباطی -->
           <div class="contact-info">
-            <a href="mailto:jawad.ebrahimi@example.com">
+            <a href="mailto:jawad.ebrahimi1400@gmail.com">
               <span class="ico">✉️</span>
               <div>
                 <div style="font-size:.78rem;color:var(--mu);font-weight:500">Email</div>
-                <div>jawad.ebrahimi@example.com</div>
+                <div>jawad.ebrahimi1400@gmail.com</div>
               </div>
             </a>
-            <a href="https://github.com/" target="_blank" rel="noopener">
+            <a href="tel:+93790259085">
+              <span class="ico">📞</span>
+              <div>
+                <div style="font-size:.78rem;color:var(--mu);font-weight:500">Phone</div>
+                <div>+93 790 259 085</div>
+              </div>
+            </a>
+            <a href="https://github.com/jawadebrahimi1400-pixel" target="_blank" rel="noopener">
               <span class="ico">🐙</span>
               <div>
                 <div style="font-size:.78rem;color:var(--mu);font-weight:500">GitHub</div>
-                <div>github.com/jawadebrahimi</div>
+                <div>github.com/jawadebrahimi1400-pixel</div>
               </div>
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/jawad-ebrahimi-2b8a13421" target="_blank" rel="noopener">
               <span class="ico">💼</span>
               <div>
                 <div style="font-size:.78rem;color:var(--mu);font-weight:500">LinkedIn</div>
-                <div>linkedin.com/in/jawadebrahimi</div>
+                <div>linkedin.com/in/jawad-ebrahimi-2b8a13421</div>
               </div>
             </a>
-            <a href="Jawad-Ebrahimi-CV.pdf" download>
+            <a href="https://instagram.com/jawad.ibrahimi.9849" target="_blank" rel="noopener">
+              <span class="ico">📷</span>
+              <div>
+                <div style="font-size:.78rem;color:var(--mu);font-weight:500">Instagram</div>
+                <div>@jawad.ibrahimi.9849</div>
+              </div>
+            </a>
+            <a href="Jawad-Ebrahemi-CV.pdf" download>
               <span class="ico">📄</span>
               <div>
                 <div style="font-size:.78rem;color:var(--mu);font-weight:500">Resume</div>
@@ -663,15 +962,12 @@ footer{
 
 <footer>
   <div class="wrap">
-    <p style="margin:0">© 2025 Jawad Ebrahimi · Built with curiosity and code.</p>
+    <p style="margin:0">© 2025 Jawad Ebrahemi · Built with curiosity and code.</p>
   </div>
 </footer>
 
 <script>
 (function(){
-  /* ============================================================
-     1. Theme toggle
-     ============================================================ */
   const root = document.documentElement;
   const toggle = document.getElementById('theme-toggle');
   const stored = localStorage.getItem('theme');
@@ -686,26 +982,17 @@ footer{
     localStorage.setItem('theme', next);
   });
 
-  /* ============================================================
-     2. SPA navigation
-     ============================================================ */
   const views = document.querySelectorAll('.view');
-  const valid = ['home','about','skills','timeline','projects','contact'];
-
+  const valid = ['home','about','skills','education','timeline','projects','certificates','services','contact'];
   function showView(name){
     if (!valid.includes(name)) name = 'home';
     views.forEach(v => v.classList.toggle('active', v.id === 'view-' + name));
     window.scrollTo(0,0);
     history.replaceState(null, '', name === 'home' ? '#' : '#' + name);
   }
-
   document.querySelectorAll('[data-go]').forEach(el => {
-    el.addEventListener('click', e => {
-      e.preventDefault();
-      showView(el.dataset.go);
-    });
+    el.addEventListener('click', e => { e.preventDefault(); showView(el.dataset.go); });
   });
-
   function fromHash(){
     const h = location.hash.replace('#','');
     showView(valid.includes(h) ? h : 'home');
@@ -713,55 +1000,29 @@ footer{
   window.addEventListener('hashchange', fromHash);
   fromHash();
 
-  /* ============================================================
-     3. Typing animation
-     ============================================================ */
-  const phrases = [
-    'AI Engineer',
-    'Python Developer',
-    'Machine Learning Enthusiast',
-    'Problem Solver',
-    'Lifelong Learner'
-  ];
+  const phrases = ['AI Engineer','Python Developer','Machine Learning Enthusiast','Problem Solver','Lifelong Learner'];
   const typedEl = document.getElementById('typed-text');
   let phraseIdx = 0, charIdx = 0, deleting = false;
-
   function typeLoop(){
     const current = phrases[phraseIdx];
     if (!deleting) {
       typedEl.textContent = current.slice(0, charIdx + 1);
       charIdx++;
-      if (charIdx === current.length) {
-        deleting = true;
-        setTimeout(typeLoop, 1600);
-        return;
-      }
+      if (charIdx === current.length) { deleting = true; setTimeout(typeLoop, 1600); return; }
       setTimeout(typeLoop, 70);
     } else {
       typedEl.textContent = current.slice(0, charIdx - 1);
       charIdx--;
-      if (charIdx === 0) {
-        deleting = false;
-        phraseIdx = (phraseIdx + 1) % phrases.length;
-        setTimeout(typeLoop, 400);
-        return;
-      }
+      if (charIdx === 0) { deleting = false; phraseIdx = (phraseIdx + 1) % phrases.length; setTimeout(typeLoop, 400); return; }
       setTimeout(typeLoop, 35);
     }
   }
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    typeLoop();
-  } else {
-    typedEl.textContent = phrases[0];
-  }
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) typeLoop();
+  else typedEl.textContent = phrases[0];
 
-  /* ============================================================
-     4. Particles background
-     ============================================================ */
   const canvas = document.getElementById('particles');
   const ctx = canvas.getContext('2d');
   let particles = [], W, H, dpr;
-
   function resize(){
     dpr = window.devicePixelRatio || 1;
     W = canvas.width = window.innerWidth * dpr;
@@ -770,129 +1031,73 @@ footer{
     canvas.style.height = window.innerHeight + 'px';
     initParticles();
   }
-
   function initParticles(){
     const count = Math.min(70, Math.floor((window.innerWidth * window.innerHeight) / 22000));
     particles = [];
     for (let i = 0; i < count; i++){
       particles.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.35 * dpr,
-        vy: (Math.random() - 0.5) * 0.35 * dpr,
-        r: (Math.random() * 1.6 + 0.6) * dpr
+        x: Math.random()*W, y: Math.random()*H,
+        vx: (Math.random()-.5)*.35*dpr, vy: (Math.random()-.5)*.35*dpr,
+        r: (Math.random()*1.6+.6)*dpr
       });
     }
   }
-
   function drawParticles(){
     const isDark = root.getAttribute('data-theme') === 'dark';
-    ctx.clearRect(0, 0, W, H);
-
-    for (let i = 0; i < particles.length; i++){
-      for (let j = i + 1; j < particles.length; j++){
-        const dx = particles[i].x - particles[j].x;
-        const dy = particles[i].y - particles[j].y;
-        const dist = Math.sqrt(dx*dx + dy*dy);
-        const maxDist = 130 * dpr;
-        if (dist < maxDist){
-          const alpha = (1 - dist / maxDist) * 0.18;
-          ctx.strokeStyle = isDark
-            ? `rgba(122,167,255,${alpha})`
-            : `rgba(43,91,215,${alpha * 1.3})`;
-          ctx.lineWidth = 1;
+    ctx.clearRect(0,0,W,H);
+    for (let i=0;i<particles.length;i++){
+      for (let j=i+1;j<particles.length;j++){
+        const dx=particles[i].x-particles[j].x, dy=particles[i].y-particles[j].y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        const maxDist=130*dpr;
+        if(dist<maxDist){
+          const alpha=(1-dist/maxDist)*.18;
+          ctx.strokeStyle=isDark?`rgba(122,167,255,${alpha})`:`rgba(43,91,215,${alpha*1.3})`;
+          ctx.lineWidth=1;
           ctx.beginPath();
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.moveTo(particles[i].x,particles[i].y);
+          ctx.lineTo(particles[j].x,particles[j].y);
           ctx.stroke();
         }
       }
     }
-
-    particles.forEach(p => {
-      ctx.fillStyle = isDark
-        ? 'rgba(182,156,255,.75)'
-        : 'rgba(43,91,215,.65)';
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fill();
-
-      p.x += p.vx;
-      p.y += p.vy;
-      if (p.x < 0 || p.x > W) p.vx *= -1;
-      if (p.y < 0 || p.y > H) p.vy *= -1;
+    particles.forEach(p=>{
+      ctx.fillStyle = isDark ? 'rgba(182,156,255,.75)' : 'rgba(43,91,215,.65)';
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fill();
+      p.x+=p.vx; p.y+=p.vy;
+      if(p.x<0||p.x>W) p.vx*=-1;
+      if(p.y<0||p.y>H) p.vy*=-1;
     });
   }
-
-  function loop(){
-    drawParticles();
-    requestAnimationFrame(loop);
-  }
-
+  function loop(){ drawParticles(); requestAnimationFrame(loop); }
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    resize();
-    window.addEventListener('resize', resize);
-    loop();
-  } else {
-    canvas.style.display = 'none';
-  }
+    resize(); window.addEventListener('resize', resize); loop();
+  } else { canvas.style.display = 'none'; }
 
-  /* ============================================================
-     5. Contact form
-     ============================================================ */
   const form = document.getElementById('contact-form');
   const status = document.getElementById('form-status');
-
-  form.addEventListener('submit', async (e) => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const data = new FormData(form);
     const name = data.get('name').trim();
     const email = data.get('email').trim();
     const message = data.get('message').trim();
-
-    if (!name || !email || !message) {
-      showStatus('Please fill in all fields.', 'err');
-      return;
-    }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      showStatus('Please enter a valid email address.', 'err');
-      return;
-    }
-
-    const ENDPOINT = ''; // ← آدرس Formspree خودت را اینجا بگذار
-
-    if (!ENDPOINT) {
-      showStatus('✓ Message received (demo mode).', 'ok');
-      form.reset();
-      return;
-    }
-
-    showStatus('Sending…', 'ok');
-    try {
-      const res = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: data
-      });
-      if (res.ok) {
-        showStatus('✓ Thanks! Your message has been sent.', 'ok');
-        form.reset();
-      } else {
-        showStatus('Something went wrong. Please try again.', 'err');
-      }
-    } catch (err) {
-      showStatus('Network error. Please check your connection.', 'err');
-    }
+    if(!name||!email||!message){showStatus('Please fill in all fields.','err');return;}
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){showStatus('Please enter a valid email address.','err');return;}
+    const ENDPOINT='';
+    if(!ENDPOINT){showStatus('✓ Message received (demo mode).','ok');form.reset();return;}
+    showStatus('Sending…','ok');
+    try{
+      const res=await fetch(ENDPOINT,{method:'POST',headers:{'Accept':'application/json'},body:data});
+      if(res.ok){showStatus('✓ Thanks! Your message has been sent.','ok');form.reset();}
+      else{showStatus('Something went wrong. Please try again.','err');}
+    }catch(err){showStatus('Network error. Please check your connection.','err');}
   });
-
-  function showStatus(msg, type){
-    status.textContent = msg;
-    status.className = type;
-    if (type === 'ok') setTimeout(() => {
-      if (status.textContent === msg) status.className = '';
-    }, 6000);
+  function showStatus(msg,type){
+    status.textContent=msg; status.className=type;
+    if(type==='ok') setTimeout(()=>{if(status.textContent===msg) status.className='';},6000);
   }
 })();
 </script>
 </body>
-</html>
+  </html>
